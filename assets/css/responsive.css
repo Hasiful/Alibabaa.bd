@@ -55,6 +55,17 @@
     .footer_menu_wrapper{
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .header_search_bar {
+        width: 90%;
+        left: 49%;
+    }
+
+
+    .header_top_profile {
+        display: flex;
+       
+    }
     
 }
 
@@ -75,6 +86,7 @@
         left: 0px;
         transform: translate(0px);
         bottom: 0px;
+        margin: 0px 40px;
     }
 
     .header_section_bottom {
@@ -146,6 +158,15 @@
     }
     .footer_menu_wrapper{
         grid-template-columns: repeat(5, 1fr);
+    }
+
+    .header_bottom_category_responsive{
+        display: block;
+    }
+
+    .header_section_bottom {
+        padding: 15px 0px;
+        box-shadow: 0px 6px 15px 0px rgb(0 0 0 / 10%);
     }
 
 }
